@@ -1,0 +1,123 @@
+body {
+    width:auto;
+    background-color:#cafafe;
+    font-family:"Croissant One";
+    color:#000000;
+    font-size: 24px;
+}
+nav li {
+    display:inline-table;
+    margin-right:100px;
+}
+nav li:last-child {
+    margin-right: 20px;
+}
+nav ul {
+    padding-left: 0;
+}
+.site-header img {
+    margin-top:36px;
+    width:100%;
+    height:auto;
+}
+
+.logo {
+    background-image: "https://s3-alpha-sig.figma.com/img/7b4f/4065/9da1c8818617ab8b0b0795c9e548b738?Expires=1675036800&Signature=XBIWY8922dJJdlpFnwhFKn7QSYlmbNEeg~Ii2Hzmw06P5VfdcCQV-Ek27snvBZhECcFnwiaiTggscfn4kznrylCGIyU-dfzCGvxjxlgVbfFTRqaBlJIY0t6KZzb35fS9Gk~ce8jFCLotrTNF9uKzT232HdD91IFvCyZq0WA-teELgOMdoD4qe74Qbgo3hxrPdp~9e-arRx3gySWrG4kQTF0jWgdtM1EEaMjs5IQBDN2iB--vFzz~f1ZN3WFpXrjcOO3Q8ucI4fCuPri4c7fg-9ngXN9zDzivHxwdhIIYM-Lhh0dvg~qyh7Xg0FulyMGB1zEOwNhrtID9t6hwH7TwgA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+    color:aliceblue;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    padding-left: 20px;
+    padding: 49px 49px 49px 49px;
+    font-family:"Croissant One";
+    font-size: 24px;
+    font-weight:bold; 
+    text-align:center;
+}
+nav {
+    background-color: #cafafe;
+    padding: 57px 14px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45.28px;
+    text-align:center;
+
+}
+ 
+nav a,nav a:visited, nav a:active{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:rgb(20, 143, 57);
+}
+
+.container {
+   width: 100%;
+    max-width:fit-content;
+   /*center the layout*/
+    margin: 16px auto;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
+/*text*/
+p{
+    background-color:#55BCC9;
+    height: 107px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    padding-left: 20px;
+    text-align: center;
+    font-family:"Croissant One";
+    color: #671419;
+    font-size: 22px;
+}
+
+/*footer*/
+h2 {
+    background-color:#EF92D5;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom:0px ;
+    padding-left: 20px;
+    text-align: center;
+    font-family:'Croissant One';
+    color: #671419;
+    font-size: 15px;
+}
+
+a, a:visited, a:active {
+    color:rgb(0, 0, 255);
+}
+a:hover {
+    color:rgba(64, 255, 0, 0.871);
+    text-decoration: none;
+}
+
+@media  (max-width: 1080px) {
+
+    body {
+        width: fit-content;
+        margin: 0 16px 16px 16px;
+            
+    }
+    
+    .wrapper {
+        display : flex ;
+        justify-content : center ;
+        align-items:center ;
+        height : auto;
+        width: 100%;
+    }
+    
+    img {
+        display: block;
+        margin: 0 0 16px 0;
+    
+    }
+}
