@@ -1,9 +1,9 @@
 body {
     width:auto;
-    background-color:#cafafe;
+    background-color:#c02193;
     font-family:"Croissant One";
     color:#000000;
-    font-size: 24px;
+    font-size: 20px;
 }
 nav li {
     display:inline-table;
@@ -29,16 +29,16 @@ nav ul {
     padding-left: 20px;
     padding: 49px 49px 49px 49px;
     font-family:"Croissant One";
-    font-size: 24px;
+    font-size: 20px;
     font-weight:bold; 
     text-align:center;
 }
 nav {
-    background-color: #cafafe;
-    padding: 57px 14px;
+    background-color:#EF92D5;
+    padding: 0px 0px 20px 20px;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 45.28px;
+    font-size: 20px;
+    /*line-height: 45.28px;*/
     text-align:center;
 
 }
