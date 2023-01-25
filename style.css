@@ -2,7 +2,7 @@ body {
     width:auto;
     background-color:#c02193;
     font-family:'Courier New', Courier, monospace;
-    color:#000000;
+    color:#671419;
     font-size: 20px;
 }
 nav li {
@@ -49,7 +49,7 @@ nav a,nav a:visited, nav a:active{
     background-position:unset;
     padding: 20px 0px 0px 0px;
     text-decoration:wavy;
-    color:black;
+    color:#671419;
     font-size: 16px;
     font-weight:bolder;
     text-align:center;
@@ -58,6 +58,7 @@ nav a,nav a:visited, nav a:active{
 nav a:hover {
     color:rgb(20, 143, 57);
 }
+
 
 .container {
    width: 100%;
@@ -83,14 +84,28 @@ p{
     color: #671419;
     font-size: 22px;
 }
-
+/*center text*/
+h1 {
+    background-color:#EF92D5;
+    width: fit-content;
+    height: 125px;
+    padding-top: 00px;
+    padding-bottom:0px ;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: #671419;
+    font-weight: bold;
+    font-size: 15px;
+}
 /*footer*/
 h2 {
     background-color:#EF92D5;
-    height: 50px;
-    padding-top: 20px;
+    height: 35px;
+    padding-top: 0px;
     padding-bottom:0px ;
-    padding-left: 20px;
+    padding-left: 0px;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     color: #671419;
@@ -101,7 +116,7 @@ a, a:visited, a:active {
     color:rgb(0, 0, 255);
 }
 a:hover {
-    color:rgba(64, 255, 0, 0.871);
+    color:#68094d;
     text-decoration: none;
 }
 
