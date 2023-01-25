@@ -1,7 +1,7 @@
 body {
     width:auto;
     background-color:#c02193;
-    font-family:"Croissant One";
+    font-family:'Courier New', Courier, monospace;
     color:#000000;
     font-size: 20px;
 }
@@ -27,26 +27,32 @@ nav ul {
     padding-top: 20px;
     padding-bottom:20px ;
     padding-left: 20px;
-    padding: 49px 49px 49px 49px;
-    font-family:"Croissant One";
-    font-size: 20px;
+    padding: 0px 00px 00px 0px;
+    image-orientation: flip;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1px;
     font-weight:bold; 
     text-align:center;
 }
 nav {
     background-color:#EF92D5;
-    padding: 0px 0px 20px 20px;
+    padding: 20px 0px 20px 20px;
     font-weight: 400;
     font-size: 20px;
     /*line-height: 45.28px;*/
     text-align:center;
 
 }
- 
+/*header*/ 
 nav a,nav a:visited, nav a:active{
-    text-decoration:none;
+    background-image:center;
+    background-position:unset;
+    padding: 20px 0px 0px 0px;
+    text-decoration:wavy;
     color:black;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight:bolder;
+    text-align:center;
 }
 
 nav a:hover {
@@ -73,7 +79,7 @@ p{
     padding-bottom:20px ;
     padding-left: 20px;
     text-align: center;
-    font-family:"Croissant One";
+    font-family:'Courier New', Courier, monospace;
     color: #671419;
     font-size: 22px;
 }
@@ -86,7 +92,7 @@ h2 {
     padding-bottom:0px ;
     padding-left: 20px;
     text-align: center;
-    font-family:'Croissant One';
+    font-family:'Courier New', Courier, monospace;
     color: #671419;
     font-size: 15px;
 }
