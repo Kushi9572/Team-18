@@ -21,26 +21,24 @@ nav ul {
     height:auto;
 }
 
-.logo {
-    background-image: "https://s3-alpha-sig.figma.com/img/7b4f/4065/9da1c8818617ab8b0b0795c9e548b738?Expires=1675036800&Signature=XBIWY8922dJJdlpFnwhFKn7QSYlmbNEeg~Ii2Hzmw06P5VfdcCQV-Ek27snvBZhECcFnwiaiTggscfn4kznrylCGIyU-dfzCGvxjxlgVbfFTRqaBlJIY0t6KZzb35fS9Gk~ce8jFCLotrTNF9uKzT232HdD91IFvCyZq0WA-teELgOMdoD4qe74Qbgo3hxrPdp~9e-arRx3gySWrG4kQTF0jWgdtM1EEaMjs5IQBDN2iB--vFzz~f1ZN3WFpXrjcOO3Q8ucI4fCuPri4c7fg-9ngXN9zDzivHxwdhIIYM-Lhh0dvg~qyh7Xg0FulyMGB1zEOwNhrtID9t6hwH7TwgA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
-    color:aliceblue;
-    padding-top: 20px;
-    padding-bottom:20px ;
-    padding-left: 20px;
-    padding: 0px 00px 00px 0px;
-    image-orientation: flip;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 1px;
-    font-weight:bold; 
-    text-align:center;
+.card {
+    background-color: transparent;
+    margin-top:0px;
+    margin-left: 0px;
+    font-size: 16px;
 }
+.slogan {
+    position: relative;
+}
+
+/*headings*/
 nav {
     background-color:#EF92D5;
-    padding: 20px 0px 20px 20px;
+    padding: 20px 20px 20px 20px;
     font-weight: 400;
     font-size: 20px;
     /*line-height: 45.28px;*/
-    text-align:center;
+    text-align:justify;
 
 }
 /*header*/ 
@@ -85,7 +83,7 @@ p{
     font-size: 22px;
 }
 /*center text*/
-h1 {
+/*h1 {
     background-color:#EF92D5;
     width: fit-content;
     height: 125px;
@@ -98,20 +96,42 @@ h1 {
     color: #671419;
     font-weight: bold;
     font-size: 15px;
-}
+}*/
+
 /*footer*/
-h2 {
-    background-color:#EF92D5;
-    height: 35px;
+h2{ 
+    text-align:start;
+    padding-top: 20px;
+    padding-bottom:0px ;
+    padding-right:0px;
+    padding-left:0px;
+}
+h3{ 
+    text-align: center;
     padding-top: 0px;
     padding-bottom:0px ;
+    padding-right: 0px;
     padding-left: 0px;
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    color: #671419;
-    font-size: 15px;
+}
+h4{ 
+    text-align:end;
+    padding-top: 0px;
+    padding-bottom:50px ;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
+footer h2,h3,h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top:0px;
+    background-color:#bbe71a;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom:0px ;
+    padding-right: 0px;
+    padding-left: 0px;
+}
 a, a:visited, a:active {
     color:rgb(0, 0, 255);
 }
@@ -142,3 +162,6 @@ a:hover {
     
     }
 }
+
+
+
